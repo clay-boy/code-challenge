@@ -1,5 +1,5 @@
 # code-challenge
-[9:11 PM, 6/30/2024] +254 112942179: README
+[9:11 PM, 6/30/2024] +254 741008354: README
 
 * STUDENT GRADE GENERATOR *
 
@@ -12,7 +12,7 @@ This is a simple JavaScript program that prompts the user to input students mark
 4. The program displays the student grade after the user input the correct numeric values for marks.
 * INSTALLATION *
 1. Clone the repository grom GitHub
-[9:12 PM, 6/30/2024] +254 112942179: 
+[9:12 PM, 6/30/2024] +254 741008354: 
 2. Open the cloned repository in your code editor.
 
 * RUNNING THE CODE *
@@ -22,10 +22,6 @@ To run the code you need to have node.js in your machine. Then in your terminal 
 The program checks for invalid inputs and displays an error message when:
 1. The user enters an invalid number for the marks
 2. The user enters a value less than zero or more than 100
-
-
-
-
 * SPEED DETECTOR *
 
 This is a JavaScript program that takes the speed of a car in (km/h) and gives demerit points for every 5km/s above the speed limit.
@@ -38,38 +34,24 @@ This is a JavaScript program that takes the speed of a car in (km/h) and gives d
 
 
 * INSTALLATION *
-1. Clone the repository grom GitHub using the command git clone https://github.com/plug-keith/code-challenge. Enter the link fork the repo then find the ssh link
+1. Clone the repository grom GitHub using the command git clone git@github.com:plug-keith/code-challenge.git. Enter the link fork the repo then find the ssh link
 2. Open the cloned repository in your code editor.
 
 * RUNNING THE CODE *
 To run the code you need to have node.js in your machine. Then in your terminal input node followed by the js file name and enter to run.
-
-
-
 * NET SALARY CALCULATOR *
-
 This is a simple Javascript program that calculates an individual's net salary by deducting values of PAYE(TAX), NHIF Deductions, NSSF Deductions and Housing Levy.
-
 * GETTING STARTED *
 1. Open the salary-calculator.js file in a code editor (i.e: VS CODE ).
 2. Run the program.
 3. Enter the basic salary and benefits when prompted.
 4. The program will calculate and display the net salary after all deductions are done.
-
-* INSTALLATION *
-1. Clone the repository grom GitHub using the command git clone https://github.com/plug-keith/code-challenge.git
-2. Open the cloned repository in your code editor.
-
 * RUNNING THE CODE *
 To run the code you need to have node.js in your machine. Then in your terminal input node followed by the js file name and enter to run.
 
 * CHECKING ERROS *
 The program will check for invalid inputs and display error messages when:
-
 1. The user enters a wrong number for basic salary or benefits.
 2. The user enters a value less than or equal to zero for basic salary or benefits.
-
-
-
 * AUTHOR *
 Keith mwai
