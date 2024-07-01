@@ -14,7 +14,7 @@ if (isNaN(basicSalary) || isNaN(benefits) || basicSalary <= 0 || benefits <= 0) 
     // Calculate gross salary
     const grossSalary = basicSalary + benefits;
     console.log(`Gross Salary: ${grossSalary}`);
-function paye(grosssalary){
+function grossSalary(grosssalary){
     let paye = 0;
     if (grossSalary <= 28895) {
         paye = grossSalary * 0.1;
@@ -31,7 +31,7 @@ function paye(grosssalary){
     // Calculate PAYE TAX
 
     console.log(`PAYE: ${paye}`);
-function nhifDeductions(grossSalary){
+function nhif(grossSalary){
     let nhifDeductions = 0;
     if (grossSalary <= 5999) {
         nhifDeductions = 150;
