@@ -14,8 +14,7 @@ if (isNaN(basicSalary) || isNaN(benefits) || basicSalary <= 0 || benefits <= 0) 
     // Calculate gross salary
     const grossSalary = basicSalary + benefits;
     console.log(`Gross Salary: ${grossSalary}`);
-
-    // Calculate PAYE TAX
+function paye(grosssalary){
     let paye = 0;
     if (grossSalary <= 28895) {
         paye = grossSalary * 0.1;
@@ -28,9 +27,11 @@ if (isNaN(basicSalary) || isNaN(benefits) || basicSalary <= 0 || benefits <= 0) 
     } else {
         paye = 15189.5 + (grossSalary - 71695) * 0.3;
     }
-    console.log(`PAYE: ${paye}`);
+}
+    // Calculate PAYE TAX
 
-    // Calculate NHIF Deductions
+    console.log(`PAYE: ${paye}`);
+function nhifDeductions(grossSalary){
     let nhifDeductions = 0;
     if (grossSalary <= 5999) {
         nhifDeductions = 150;
@@ -67,6 +68,9 @@ if (isNaN(basicSalary) || isNaN(benefits) || basicSalary <= 0 || benefits <= 0) 
     } else {
         nhifDeductions = 1700;
     }
+}
+    // Calculate NHIF Deductions
+   
     console.log(`NHIF Deductions: ${nhifDeductions}`);
 
     // Calculate NSSF Deductions
