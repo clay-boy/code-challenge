@@ -13,3 +13,4 @@ function calculateDemeritPoints () {
             console.log("Points: " + demeritPoints);        }
     }
 }
+calculateDemeritPoints();
